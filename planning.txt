@@ -1,0 +1,35 @@
+ok let's try to make the UI first
+let's see...
+a home page of sorts
+with one option for taking a picture
+and then another to bring you to the albums page?
+
+on home page, press button --> take picture --> redirect back to home
+    in terms of backend, maybe just save the picture to a default folder?
+on home page, press button --> go to albums --> display various folders maybe
+    default and any user-created ones
+    albums page needs way to create new album / delete album / etc. I suppose
+
+honestly what's the point of this project lol it seems so useless
+
+if there was a way to integrate it into like google drive or something that'd be cooler
+
+but anyway
+
+there are 2 main capture-image functions I think
+one is just captureImage
+and the other is the preview one
+
+I don't think the preview one is too useful right now
+so maybe the idea is you do capture image and then download the image from the camera to the computer
+and then display it
+
+so take picture --> redirect to image display page where it shows the picture you just took
+
+for the albums thing, that means that when you download the image to the computer, it gets put into a specific
+default album folder
+
+and then options to manage the album folders basically
+and view specific images
+
+so is that it then?
